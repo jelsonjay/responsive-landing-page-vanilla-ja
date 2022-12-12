@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Card Responsive HTL CSS & Vanilla JavaScript</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Link BOXICONS CSS -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<!-- LOCAL CSS -->
+		<link rel="stylesheet" href="./css/master.css" />
+	</head>
+
+	<body>
+		<header>
+			<img class="brand" src="./images/l-vuitton.webp" alt="" />
+			<nav>
+				<ul>
+					<li style="--i: 1"><a href="">New</a></li>
+					<li style="--i: 2"><a href="">Blog</a></li>
+					<li style="--i: 3"><a href="">Product</a></li>
+					<li style="--i: 4"><a href="">login</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="wrapper">
+				<div class="container">
+					<div class="left-side">
+						<h2>welcome to loui voitoon site</h2>
+						<h3>Lorem ipsum, dolor sit amet</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+							cupiditate? Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit. Alias, cupiditate?
+						</p>
+
+						<a href="#" class="btn">Add to cart</a>
+					</div>
+					<div class="right-side">
+						<img src="./images/bag-2.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<h1>Louis Vuitton Bags</h1>
+			<section>
+				<div class="card-container">
+					<div class="card" data-card="card-1">
+						<img src="./images/bag-2.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+
+					<div class="card" data-card="card-2">
+						<img src="./images/bag-4.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+
+					<div class="card" data-card="card-3">
+						<img src="./images/bag3.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+					<div class="card" data-card="card-4">
+						<img src="./images/bag6.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+					<div class="card" data-card="card-5">
+						<img src="./images/bag7.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+					<div class="card" data-card="card-6">
+						<img src="./images/bag8.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<span>£1500.99</span>
+					</div>
+				</div>
+
+				<!--START CARD PREVIEW-->
+
+				<div class="card-preview-container">
+					<div class="card-preview" data-target="card-1">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag-2.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1400.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+
+					<div class="card-preview" data-target="card-2">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag-4.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1500.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+
+					<div class="card-preview" data-target="card-3">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag3.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1500.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+
+					<div class="card-preview" data-target="card-4">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag6.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1500.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+
+					<div class="card-preview" data-target="card-5">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag7.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1500.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+
+					<div class="card-preview" data-target="card-6">
+						<i class="bx bx-x"></i>
+						<img src="./images/bag8.png" alt="" />
+						<h2>Louis Vuitton Bag 1</h2>
+						<div class="stars">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star-half"></i>
+							<i class="bx bxs-star-half"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+							nesciunt?
+						</p>
+						<span>£1500.99</span>
+						<div class="btns">
+							<a href="#" class="add">Add to basket</a>
+							<a href="#" class="buy">Buy now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
